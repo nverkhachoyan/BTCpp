@@ -1,0 +1,11 @@
+# ninja log v5
+2	148	1665967116651544340	CMakeFiles/BTCcpp.dir/Node.cpp.o	464d94562704b07c
+2	392	1665967116894172695	CMakeFiles/BTCcpp.dir/Tree.cpp.o	3d0fba89f52b5d8f
+1	399	1665967116901202755	CMakeFiles/BTCcpp.dir/main.cpp.o	af8a356a5f03193f
+1	241	1665967129775304701	CMakeFiles/BTCcpp.dir/main.cpp.o	af8a356a5f03193f
+6	420	1665967489109781131	CMakeFiles/BTCcpp.dir/Tree.cpp.o	3d0fba89f52b5d8f
+5	423	1665967489114175559	CMakeFiles/BTCcpp.dir/main.cpp.o	af8a356a5f03193f
+1	372	1665967603873523491	CMakeFiles/BTCcpp.dir/main.cpp.o	af8a356a5f03193f
+2	129	1665967807532552623	CMakeFiles/BTCcpp.dir/Node.cpp.o	464d94562704b07c
+2	399	1665968465084237565	CMakeFiles/BTCcpp.dir/Tree.cpp.o	3d0fba89f52b5d8f
+1	272	1665968519118745172	CMakeFiles/BTCcpp.dir/Tree.cpp.o	3d0fba89f52b5d8f
