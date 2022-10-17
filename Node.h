@@ -17,17 +17,37 @@ private:
     Node* rightChild = nullptr;
 public:
     // constructor
-    Node(T theKey);
+    Node(T theKey)
+    {
+        this->key = theKey;
+    }
     // setters
-    void setLeftChild(Node* newNode);
+    void setLeftChild(Node* newNode)
+    {
+        this->leftChild = newNode;
+    }
 
-    void setRightChild(Node* newNode);
+    void setRightChild(Node* newNode)
+    {
+        this->rightChild = newNode;
+    }
     // getters
-    Node* getParent();
-
-    Node* getLeftChild();
-    Node* getRightChild();
-    T getKey();
+    Node* getParent()
+    {
+        return this->parent;
+    }
+    Node* getLeftChild()
+    {
+        return this->leftChild;
+    }
+    Node* getRightChild()
+    {
+        return this->rightChild;
+    }
+    T getKey()
+    {
+        return this->key;
+    }
 };
 
 

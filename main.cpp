@@ -1,22 +1,29 @@
-#include <iostream>
 #include "Node.h"
 #include "Tree.h"
+#include <iostream>
 
 int main()
 {
-    Node<int> * node = new Node(9);
-    Node<int> * node1 = new Node(15);
-    Node<int> * node2 = new Node(19);
-    Node<int> * node3 = new Node(25);
+    // Tree with integers
+    int numbers[8] = { 2, 4, 3, 1, 8, 5, 6, 7};
+    int numbersSize = sizeof(numbers) / sizeof(numbers[0]);
 
-    Tree <int> tree;
-    tree.insert(tree.getRoot(), node);
-    tree.insert(tree.getRoot(), node1);
-    tree.insert(tree.getRoot(), node2);
-    tree.insert(tree.getRoot(), node3);
+    Tree <int> integerTree;
+    for(int i = 0; i < numbersSize; i++)
+    {
+        Node<int> * node = new Node(numbers[i]);
+        integerTree.insert(integerTree.getRoot(), node);
+    }
 
-    tree.printTree(tree.getRoot());
-    // std::cout << "The key is " << node.getKey() << "\n";
-    // std::cout << "Testing";
+    integerTree.printTree(integerTree.getRoot());
+
+//    // Tree with strings
+//
+//
+//    std::string name = "Jack";
+//    Node<std::string> * myNode = new Node(name);
+//    Tree <std::string> stringTree;
+//    stringTree.insert(stringTree.getRoot(), myNode);
+//    stringTree.printTree(stringTree.getRoot());
     return 0;
 }

@@ -52,18 +52,6 @@ build CMakeFiles/BTCcpp.dir/main.cpp.o: CXX_COMPILER__BTCcpp_Debug /Users/nverkh
   OBJECT_DIR = CMakeFiles/BTCcpp.dir
   OBJECT_FILE_DIR = CMakeFiles/BTCcpp.dir
 
-build CMakeFiles/BTCcpp.dir/Node.cpp.o: CXX_COMPILER__BTCcpp_Debug /Users/nverkhachoyan/Dev/Practice/BinaryTrees/BTCcpp/Node.cpp || cmake_object_order_depends_target_BTCcpp
-  DEP_FILE = CMakeFiles/BTCcpp.dir/Node.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++2b
-  OBJECT_DIR = CMakeFiles/BTCcpp.dir
-  OBJECT_FILE_DIR = CMakeFiles/BTCcpp.dir
-
-build CMakeFiles/BTCcpp.dir/Tree.cpp.o: CXX_COMPILER__BTCcpp_Debug /Users/nverkhachoyan/Dev/Practice/BinaryTrees/BTCcpp/Tree.cpp || cmake_object_order_depends_target_BTCcpp
-  DEP_FILE = CMakeFiles/BTCcpp.dir/Tree.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++2b
-  OBJECT_DIR = CMakeFiles/BTCcpp.dir
-  OBJECT_FILE_DIR = CMakeFiles/BTCcpp.dir
-
 
 # =============================================================================
 # Link build statements for EXECUTABLE target BTCcpp
@@ -72,7 +60,7 @@ build CMakeFiles/BTCcpp.dir/Tree.cpp.o: CXX_COMPILER__BTCcpp_Debug /Users/nverkh
 #############################################
 # Link the executable BTCcpp
 
-build BTCcpp: CXX_EXECUTABLE_LINKER__BTCcpp_Debug CMakeFiles/BTCcpp.dir/main.cpp.o CMakeFiles/BTCcpp.dir/Node.cpp.o CMakeFiles/BTCcpp.dir/Tree.cpp.o
+build BTCcpp: CXX_EXECUTABLE_LINKER__BTCcpp_Debug CMakeFiles/BTCcpp.dir/main.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/BTCcpp.dir
   POST_BUILD = :

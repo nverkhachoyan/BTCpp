@@ -3,4 +3,4 @@ project(BTCcpp)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(BTCcpp main.cpp Node.cpp Node.h Tree.cpp Tree.h)
+add_executable(BTCcpp main.cpp Node.h Tree.h)
